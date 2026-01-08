@@ -6,6 +6,8 @@ import HowItWorks from "@/components/landing/HowItWorks";
 import Security from "@/components/landing/Security";
 import Footer from "@/components/landing/Footer";
 import ChatDemo from "@/components/chat/ChatDemo";
+// At the top of your main landing page file
+import Pricing from '@/components/landing/Pricing';
 
 const Index = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -17,8 +19,9 @@ const Index = () => {
       <Features />
       <HowItWorks />
       <Security />
+      <Pricing />
       <Footer onOpenChat={() => setIsChatOpen(true)} />
-      
+
       <ChatDemo isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
     </div>
   );

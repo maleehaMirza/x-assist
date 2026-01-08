@@ -1,15 +1,10 @@
-import { Shield, Lock, Eye, Award } from "lucide-react";
+import { Shield, Eye, Award } from "lucide-react";
 
 const badges = [
   {
     icon: Shield,
     title: "Bank-Level Encryption",
     description: "256-bit AES encryption protects all your data",
-  },
-  {
-    icon: Lock,
-    title: "FDIC Insured",
-    description: "Your deposits are insured up to $250,000",
   },
   {
     icon: Eye,
@@ -25,29 +20,35 @@ const badges = [
 
 const Security = () => {
   return (
-    <section id="security" className="py-20 px-4 bg-navy text-primary-foreground">
+    <section
+      id="security"
+      className="py-20 px-4 bg-background text-foreground"
+    >
       <div className="container mx-auto">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-20">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Security is Our Priority
+            Your <span className="text-gradient">Security</span> is Our Priority
           </h2>
-          <p className="text-lg opacity-80">
-            X Assist is built on enterprise-grade security infrastructure. Your financial 
-            data and conversations are protected by industry-leading standards.
+          <p className="text-lg text-muted-foreground opacity-80 leading-relaxed">
+            X Assist is built on enterprise-grade security infrastructure. Your
+            financial data and conversations are protected by industry-leading
+            standards.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 w-full">
           {badges.map((badge) => (
-            <div 
+            <div
               key={badge.title}
-              className="text-center p-6 rounded-2xl bg-primary-foreground/10 backdrop-blur-sm hover:bg-primary-foreground/15 transition-colors"
+              className="text-center p-10 rounded-3xl bg-card backdrop-blur-sm hover:bg-card/80 transition-colors"
             >
-              <div className="w-14 h-14 rounded-xl bg-teal/20 flex items-center justify-center mx-auto mb-4">
-                <badge.icon className="w-7 h-7 text-teal-light" />
+              <div className="w-20 h-20 rounded-xl gradient-gold flex items-center justify-center mx-auto mb-6">
+                <badge.icon className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="font-semibold mb-2">{badge.title}</h3>
-              <p className="text-sm opacity-70">{badge.description}</p>
+              <h3 className="text-2xl font-semibold mb-4">{badge.title}</h3>
+              <p className="text-lg opacity-70 leading-relaxed">
+                {badge.description}
+              </p>
             </div>
           ))}
         </div>

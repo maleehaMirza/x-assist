@@ -22,7 +22,7 @@ const Hero = ({ onOpenChat }: HeroProps) => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-              The first AI that truly understands your financial journey. Combining checking, 
+              The first AI that truly understands your financial journey. Combining checking,
               high-yield savings, and robo-investing with empathetic, voice-enabled conversations.
             </p>
 
@@ -63,15 +63,15 @@ const Hero = ({ onOpenChat }: HeroProps) => {
               {/* Decorative blobs */}
               <div className="absolute -top-10 -left-10 w-72 h-72 bg-teal/20 rounded-full blur-3xl" />
               <div className="absolute -bottom-10 -right-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl" />
-              
+
               {/* Phone mockup */}
-              <div className="relative w-72 md:w-80 bg-navy rounded-[3rem] p-3 shadow-2xl animate-float">
+              <div className="relative w-72 md:w-80 bg-white rounded-[3rem] p-1 shadow-2xl animate-float">
                 <div className="bg-background rounded-[2.5rem] overflow-hidden">
                   {/* Status bar */}
                   <div className="h-8 bg-muted flex items-center justify-center">
                     <div className="w-20 h-5 bg-navy/20 rounded-full" />
                   </div>
-                  
+
                   {/* Chat preview */}
                   <div className="p-4 space-y-4 min-h-[400px]">
                     <div className="flex gap-3">
