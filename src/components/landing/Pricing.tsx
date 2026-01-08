@@ -19,7 +19,7 @@ const plans = [
     },
     {
         name: "Premium",
-        price: "$9.99",
+        price: "$14.99",
         period: "/month",
         description: "Full emotional intelligence and advanced features",
         features: [
