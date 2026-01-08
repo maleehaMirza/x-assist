@@ -50,10 +50,7 @@ const Hero = ({ onOpenChat }: HeroProps) => {
                 <Shield className="w-5 h-5 text-teal" />
                 <span className="text-sm">Bank-level Security</span>
               </div>
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <TrendingUp className="w-5 h-5 text-teal" />
-                <span className="text-sm">4.5% APY Savings</span>
-              </div>
+
             </div>
           </div>
 

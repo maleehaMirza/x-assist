@@ -8,10 +8,10 @@ const plans = [
         price: "Free",
         description: "Get started with essential financial guidance",
         features: [
-            "Basic AI financial conversations",
-            "Text-based chat support",
-            "Monthly spending insights",
-            "Goal tracking",
+            "Standard AI responses for technical and low-risk queries",
+            "Automatic escalation for high-risk interactions (panic moments)",
+            "Limited AI voice sessions",
+            " Automatic analysis of portfolio drops / high-risk flags",
             "Educational resources"
         ],
         buttonText: "Get Started",
@@ -23,13 +23,13 @@ const plans = [
         period: "/month",
         description: "Full emotional intelligence and advanced features",
         features: [
-            "Advanced emotional AI conversations",
-            "Voice-enabled interactions",
-            "Real-time financial analysis",
-            "Personalized investment advice",
+            "Advanced AI guidance + priority response",
+            "Scheduled Check-ins with human advisors ",
+            "Unlimited AI voice sessions",
+            "Personalized risk assessment & goal tracking",
             "24/7 priority support",
-            "Custom savings strategies",
-            "Advanced goal planning"
+            "Long-term Financial Planning (Savings, Investments, Goals)",
+            "Priority human support outside panic moments"
         ],
         buttonText: "Start Free Trial",
         popular: true,
