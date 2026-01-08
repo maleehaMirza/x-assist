@@ -15,7 +15,7 @@ const Footer = ({ onOpenChat }: FooterProps) => {
             Ready to Transform Your Financial Journey?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Experience the future of personal finance with X Assist. 
+            Experience the future of personal finance with X-Assist.
             Try our demo and see how emotional intelligence meets financial wisdom.
           </p>
           <Button
@@ -23,7 +23,7 @@ const Footer = ({ onOpenChat }: FooterProps) => {
             onClick={onOpenChat}
             className="gradient-teal text-primary-foreground hover:opacity-90 text-lg px-10 py-6"
           >
-            Try X Assist Now
+            Try X-Assist Now
           </Button>
         </div>
 
@@ -32,9 +32,9 @@ const Footer = ({ onOpenChat }: FooterProps) => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl gradient-teal flex items-center justify-center">
-                <Bot className="w-6 h-6 text-primary-foreground" />
+                <Bot className="w-6 h-6 text-yellow-500" />
               </div>
-              <span className="text-xl font-bold">X Assist</span>
+              <span className="text-xl font-bold">X-Assist</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Your emotionally intelligent financial companion for checking, savings, and investing.
@@ -74,7 +74,7 @@ const Footer = ({ onOpenChat }: FooterProps) => {
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 X Assist. All rights reserved.
+            © 2026 X-Assist. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             Banking services provided by partner banks, Member FDIC. Investments are not FDIC insured.

@@ -18,7 +18,7 @@ const Hero = ({ onOpenChat }: HeroProps) => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Meet <span className="text-gradient">X Assist</span> — Your Emotionally Intelligent Financial Companion
+              Meet <span className="text-gradient">X-Assist</span> — Your Emotionally Intelligent Financial Companion
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
@@ -33,7 +33,7 @@ const Hero = ({ onOpenChat }: HeroProps) => {
                 className="gradient-teal text-primary-foreground hover:opacity-90 text-lg px-8 py-6"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
-                Try X Assist Demo
+                Try X-Assist Demo
               </Button>
               <Button
                 size="lg"
@@ -77,7 +77,7 @@ const Hero = ({ onOpenChat }: HeroProps) => {
                       </div>
                       <div className="bg-muted rounded-2xl rounded-tl-sm px-4 py-3 max-w-[200px]">
                         <p className="text-sm text-foreground">
-                          Hi! I'm X Assist. I noticed your savings goal is coming up. How are you feeling about it? 💚
+                          Hi! I'm X-Assist. I noticed your savings goal is coming up. How are you feeling about it? 💚
                         </p>
                       </div>
                     </div>
@@ -102,7 +102,7 @@ const Hero = ({ onOpenChat }: HeroProps) => {
                     </div>
 
                     {/* Voice input indicator */}
-                    <div className="flex items-center gap-3 pt-4">
+                    <div className="flex items-center gap-4 pt-4">
                       <div className="flex-1 h-12 bg-muted rounded-full flex items-center px-4">
                         <span className="text-muted-foreground text-sm">Type or record a voice note...</span>
                       </div>

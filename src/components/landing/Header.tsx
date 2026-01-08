@@ -16,7 +16,7 @@ const Header = ({ onOpenChat }: HeaderProps) => {
           <div className="w-10 h-10 rounded-xl gradient-teal flex items-center justify-center">
             <Bot className="w-6 h-6 text-primary-foreground" />
           </div>
-          <span className="text-xl font-bold text-foreground">X Assist</span>
+          <span className="text-xl font-bold text-foreground">X-Assist</span>
         </div>
 
         {/* Desktop Navigation */}

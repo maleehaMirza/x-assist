@@ -19,7 +19,7 @@ const ChatMessage = ({ message }: ChatMessageProps) => {
 
   const toggleAudio = () => {
     if (!audioRef.current) return;
-    
+
     if (isPlaying) {
       audioRef.current.pause();
     } else {
@@ -45,21 +45,19 @@ const ChatMessage = ({ message }: ChatMessageProps) => {
 
       {/* Message bubble */}
       <div
-        className={`max-w-[80%] rounded-2xl px-4 py-3 ${
-          isUser
-            ? "bg-primary text-primary-foreground rounded-tr-sm"
-            : "bg-muted text-foreground rounded-tl-sm"
-        }`}
+        className={`max-w-[80%] rounded-2xl px-4 py-3 ${isUser
+          ? "bg-primary text-primary-foreground rounded-tr-sm"
+          : "bg-muted text-foreground rounded-tl-sm"
+          }`}
       >
         {message.audioUrl ? (
           <div className="flex items-center gap-3">
             <button
               onClick={toggleAudio}
-              className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-                isUser
-                  ? "bg-primary-foreground/20 hover:bg-primary-foreground/30"
-                  : "bg-foreground/10 hover:bg-foreground/20"
-              }`}
+              className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${isUser
+                ? "bg-primary-foreground/20 hover:bg-primary-foreground/30"
+                : "bg-foreground/10 hover:bg-foreground/20"
+                }`}
             >
               {isPlaying ? (
                 <Pause className="w-4 h-4" />
@@ -72,9 +70,8 @@ const ChatMessage = ({ message }: ChatMessageProps) => {
                 {[...Array(20)].map((_, i) => (
                   <div
                     key={i}
-                    className={`w-1 rounded-full ${
-                      isUser ? "bg-primary-foreground/50" : "bg-foreground/30"
-                    }`}
+                    className={`w-1 rounded-full ${isUser ? "bg-primary-foreground/50" : "bg-foreground/30"
+                      }`}
                     style={{
                       height: `${Math.random() * 16 + 8}px`,
                     }}

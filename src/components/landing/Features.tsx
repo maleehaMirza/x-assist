@@ -6,13 +6,13 @@ const features = [
     icon: Heart,
     title: "Emotionally Intelligent",
     description:
-      "X Assist understands financial stress and anxiety, offering empathetic guidance tailored to your emotional state.",
+      "X-Assist understands financial stress and anxiety, offering empathetic guidance tailored to your emotional state.",
   },
   {
     icon: Mic,
     title: "Voice-Enabled Conversations",
     description:
-      "Record voice notes to share your thoughts naturally. X Assist listens and responds with personalized advice.",
+      "Record voice notes to share your thoughts naturally. X-Assist listens and responds with personalized advice.",
   },
   {
     icon: Brain,
@@ -24,7 +24,7 @@ const features = [
     icon: Clock,
     title: "24/7 Availability",
     description:
-      "Get financial guidance anytime, anywhere. X Assist is always ready to help you navigate your finances.",
+      "Get financial guidance anytime, anywhere. X-Assist is always ready to help you navigate your finances.",
   },
 ];
 
@@ -38,7 +38,7 @@ const Features = () => {
             <span className="text-gradient">Financial Wellness</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            X Assist combines emotional intelligence with powerful financial tools
+            X-Assist combines emotional intelligence with powerful financial tools
             to help you achieve your goals with confidence.
           </p>
         </div>

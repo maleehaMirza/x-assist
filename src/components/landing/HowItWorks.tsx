@@ -6,7 +6,7 @@ const steps = [
     step: "01",
     title: "Start a Conversation",
     description:
-      "Open X Assist and share what's on your mind — whether it's a savings goal, investment question, or financial worry.",
+      "Open X-Assist and share what's on your mind — whether it's a savings goal, investment question, or financial worry.",
   },
   {
     icon: Mic,
@@ -32,7 +32,7 @@ const HowItWorks = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             How{" "}
             <span className="text-gradient" style={{ display: "inline" }}>
-              X Assist
+              X-Assist
             </span>{" "}
             Works
           </h2>

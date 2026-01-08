@@ -30,7 +30,7 @@ const Security = () => {
             Your <span className="text-gradient">Security</span> is Our Priority
           </h2>
           <p className="text-lg text-muted-foreground opacity-80 leading-relaxed">
-            X Assist is built on enterprise-grade security infrastructure. Your
+            X-Assist is built on enterprise-grade security infrastructure. Your
             financial data and conversations are protected by industry-leading
             standards.
           </p>
